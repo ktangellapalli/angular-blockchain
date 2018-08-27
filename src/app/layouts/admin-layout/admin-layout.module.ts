@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminLayoutRoutes } from './admin-layout.routing';
 import { DashboardComponent } from '../../dashboard/dashboard.component';
+import { HyperledgerComponent } from '../../hyperledger/hyperledger.component';
 
 import {
   MatAutocompleteModule,
@@ -78,7 +79,8 @@ import {
     MatTooltipModule,
   ],
   declarations: [
-    DashboardComponent
+    DashboardComponent,
+    HyperledgerComponent
   ]
 })
 
