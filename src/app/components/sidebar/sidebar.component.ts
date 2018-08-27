@@ -10,7 +10,7 @@ declare interface RouteInfo {
 export const ArtifactsRoutes: RouteInfo[] = [
     { path: '/architecture', title: 'Architecture', icon: 'dashboard', class: '' },
     { path: '/user-profile', title: 'DevOps', icon: 'person', class: '' },
-    { path: '/user-profile', title: 'Whitepapers', icon: 'person', class: '' },
+    { path: '/whitepapers', title: 'Whitepapers', icon: 'person', class: '' },
 ];
 export const DemosRoutes: RouteInfo[] = [
     { path: '/hyperledger', title: 'Hyperledger', icon: 'dashboard', class: '' },

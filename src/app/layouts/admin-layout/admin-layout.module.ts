@@ -7,6 +7,7 @@ import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { HyperledgerComponent } from '../../hyperledger/hyperledger.component';
 import { EthereumComponent } from '../../ethereum/ethereum.component';
 import { ArchitectureComponent } from '../../architecture/architecture.component';
+import { WhitepapersComponent } from '../../whitepapers/whitepapers.component';
 
 import {
   MatAutocompleteModule,
@@ -84,7 +85,8 @@ import {
     DashboardComponent,
     HyperledgerComponent,
     EthereumComponent,
-    ArchitectureComponent
+    ArchitectureComponent,
+    WhitepapersComponent
   ]
 })
 
