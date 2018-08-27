@@ -5,6 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminLayoutRoutes } from './admin-layout.routing';
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { HyperledgerComponent } from '../../hyperledger/hyperledger.component';
+import { EthereumComponent } from '../../ethereum/ethereum.component';
 
 import {
   MatAutocompleteModule,
@@ -80,7 +81,8 @@ import {
   ],
   declarations: [
     DashboardComponent,
-    HyperledgerComponent
+    HyperledgerComponent,
+    EthereumComponent
   ]
 })
 

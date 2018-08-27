@@ -14,7 +14,7 @@ export const ArtifactsRoutes: RouteInfo[] = [
 ];
 export const DemosRoutes: RouteInfo[] = [
     { path: '/hyperledger', title: 'Hyperledger', icon: 'dashboard', class: '' },
-    { path: '/user-profile', title: 'Ethereum', icon: 'person', class: '' },
+    { path: '/ethereum', title: 'Ethereum', icon: 'person', class: '' },
     { path: '/dashboard', title: 'Multichain', icon: 'dashboard', class: '' },
     { path: '/user-profile', title: 'R3Corda', icon: 'person', class: '' },
 ];
