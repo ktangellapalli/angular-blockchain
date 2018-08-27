@@ -8,7 +8,7 @@ declare interface RouteInfo {
     class: string;
 }
 export const ArtifactsRoutes: RouteInfo[] = [
-    { path: '/dashboard', title: 'Architecture', icon: 'dashboard', class: '' },
+    { path: '/architecture', title: 'Architecture', icon: 'dashboard', class: '' },
     { path: '/user-profile', title: 'DevOps', icon: 'person', class: '' },
     { path: '/user-profile', title: 'Whitepapers', icon: 'person', class: '' },
 ];

@@ -6,6 +6,7 @@ import { AdminLayoutRoutes } from './admin-layout.routing';
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { HyperledgerComponent } from '../../hyperledger/hyperledger.component';
 import { EthereumComponent } from '../../ethereum/ethereum.component';
+import { ArchitectureComponent } from '../../architecture/architecture.component';
 
 import {
   MatAutocompleteModule,
@@ -82,7 +83,8 @@ import {
   declarations: [
     DashboardComponent,
     HyperledgerComponent,
-    EthereumComponent
+    EthereumComponent,
+    ArchitectureComponent
   ]
 })
 
