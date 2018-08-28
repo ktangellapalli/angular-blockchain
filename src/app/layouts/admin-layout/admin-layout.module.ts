@@ -8,7 +8,9 @@ import { HyperledgerComponent } from '../../hyperledger/hyperledger.component';
 import { EthereumComponent } from '../../ethereum/ethereum.component';
 import { ArchitectureComponent } from '../../architecture/architecture.component';
 import { WhitepapersComponent } from '../../whitepapers/whitepapers.component';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { DialogComponent } from '../../components/dialog/dialog.component';
+import { ParticlesModule } from 'angular-particle';
 import {
   MatAutocompleteModule,
   MatButtonModule,
@@ -80,14 +82,18 @@ import {
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
+    FontAwesomeModule,
+    ParticlesModule
   ],
   declarations: [
     DashboardComponent,
     HyperledgerComponent,
     EthereumComponent,
     ArchitectureComponent,
-    WhitepapersComponent
-  ]
+    WhitepapersComponent,
+    DialogComponent
+  ],
+  entryComponents: [DialogComponent]
 })
 
 export class AdminLayoutModule {}

@@ -54,3 +54,48 @@
  @import "core/plugins/perfect-scrollbar";
 
  @import "core/responsive";
+.main-panel{
+    position: relative;
+    z-index: 10;
+}
+ .demo-single{
+     padding-bottom: 6px;
+     margin-top: 10px;
+     float: left;
+     width: 100%;
+     
+     h4 {
+        font-weight: 400;
+        font-size: 15px;
+     }
+     .icons{
+        float: left;
+
+        fa-icon {
+            font-size: 18px;
+            margin-right: 12px;
+        }
+        .ppt {
+            color: #C4412C;
+        }
+        .whitepaper {
+            color: #254C8E;
+        }
+        .demo {
+            color: #F1B017 !important;
+        }
+        .video {
+            color: #FF0004;
+        }
+     }
+ }
+.demo-single + mat-divider {
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+}
+.demo-tooltip{
+    background: #000000;
+    color: #fff !important;
+    font-size: 13px !important;
+}
