@@ -106,6 +106,22 @@
         vertical-align: top;
     }
 }
+.ledgers-card {
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all 0.5s !important;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+        transform: translate(0, -15px);
+    }
+    .img-card {
+        max-height: 305px;
+        overflow: hidden;
+        vertical-align: top;
+    }
+}
 .legends{
     position: fixed;
     top: 10px;
