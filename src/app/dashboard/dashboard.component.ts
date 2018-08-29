@@ -2,7 +2,7 @@ import { Component, OnInit, Inject } from '@angular/core';
 import * as Chartist from 'chartist';
 import { faFilePowerpoint, faFileWord, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-import {MatDialog, MAT_DIALOG_DATA} from '@angular/material';
+import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 import { DialogComponent } from '../components/dialog/dialog.component';
 
 @Component({
@@ -16,7 +16,7 @@ export class DashboardComponent implements OnInit {
   faDemo = faPaperPlane;
   faVideo = faYoutube;
 
-  constructor(public dialog: MatDialog) { }
+  constructor( public dialog: MatDialog) { }
   ngOnInit() {
   }
   

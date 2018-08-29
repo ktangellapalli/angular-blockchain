@@ -11,6 +11,7 @@ import { WhitepapersComponent } from '../../whitepapers/whitepapers.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { DialogComponent } from '../../components/dialog/dialog.component';
 import { ParticlesModule } from 'angular-particle';
+import { EmbedVideo } from 'ngx-embed-video';
 import {
   MatAutocompleteModule,
   MatButtonModule,
@@ -47,6 +48,7 @@ import {
 } from '@angular/material';
 @NgModule({
   imports: [
+    EmbedVideo.forRoot(),
     CommonModule,
     RouterModule.forChild(AdminLayoutRoutes),
     FormsModule,

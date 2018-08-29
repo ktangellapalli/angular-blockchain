@@ -12,6 +12,9 @@ import { AppComponent } from './app.component';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { ParticlesModule } from 'angular-particle';
+import { EmbedVideo } from 'ngx-embed-video';
+import { LightboxModule } from 'ngx-lightbox';
+
 
 
 @NgModule({
@@ -22,7 +25,9 @@ import { ParticlesModule } from 'angular-particle';
     ComponentsModule,
     RouterModule,
     AppRoutingModule,
-    ParticlesModule
+    ParticlesModule,
+    EmbedVideo.forRoot(),
+    LightboxModule
   ],
   declarations: [
     AppComponent,
