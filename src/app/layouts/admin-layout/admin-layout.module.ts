@@ -6,6 +6,7 @@ import { AdminLayoutRoutes } from './admin-layout.routing';
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { HyperledgerComponent } from '../../hyperledger/hyperledger.component';
 import { EthereumComponent } from '../../ethereum/ethereum.component';
+import { ReferencesComponent } from '../../references/references.component';
 import { ArchitectureComponent } from '../../architecture/architecture.component';
 import { WhitepapersComponent } from '../../whitepapers/whitepapers.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -93,9 +94,10 @@ import {
     EthereumComponent,
     ArchitectureComponent,
     WhitepapersComponent,
-    DialogComponent
+    DialogComponent,
+    ReferencesComponent
   ],
   entryComponents: [DialogComponent]
 })
 
-export class AdminLayoutModule {}
+export class AdminLayoutModule { }

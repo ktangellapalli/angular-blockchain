@@ -19,7 +19,7 @@ export const DemosRoutes: RouteInfo[] = [
     { path: '/user-profile', title: 'R3Corda', icon: 'person', class: '' },
 ];
 export const ReferencesRoutes: RouteInfo[] = [
-    { path: '/dashboard', title: 'References', icon: 'dashboard', class: '' },
+    { path: '/references', title: 'References', icon: 'dashboard', class: '' },
 ];
 
 @Component({
