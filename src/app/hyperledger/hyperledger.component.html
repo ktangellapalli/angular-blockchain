@@ -35,6 +35,33 @@
 
       <div class="col-md-4">
         <div class="card card-chart">
+          <div class="card-header card-header-success">
+            <h4 class="card-title">Supply Chain Management - Sawtooth</h4>
+          </div>
+          <div class="card-body">
+            <div class="demo-single">
+              <h4>Seafood</h4>
+              <div class="icons">
+                <a target='_blank' href="https://drive.google.com/open?id=18ntoELE4NFdBqCDCI4yX2z6ZCrqmznYW">
+                  <fa-icon matTooltip="PPT" matTooltipClass="demo-tooltip" class="ppt" [icon]="faPpt"></fa-icon>
+                </a>
+                <a target='_blank' href="https://drive.google.com/file/d/1Yr8xaBkHH3zTp7lEasfkvB9pz6DTu7vp/view">
+                  <fa-icon matTooltip="White Paper" matTooltipClass="demo-tooltip" class="whitepaper" [icon]="faWord"></fa-icon>
+                </a>
+                <a target='_blank' href="http://52.172.13.43:8022/">
+                  <fa-icon matTooltip="Demo" matTooltipClass="demo-tooltip" [icon]="faDemo"></fa-icon>
+                </a>
+                <a target='_blank' (click)="openDialog('8nrVlICgiYM')">
+                  <fa-icon matTooltip="Video" class="video" matTooltipClass="demo-tooltip" [icon]="faVideo"></fa-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card card-chart">
           <div class="card-header card-header-warning">
             <h4 class="card-title">Supply Chain Management - Fabric</h4>
           </div>
@@ -59,48 +86,21 @@
           </div>
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div class="card card-chart">
-          <div class="card-header card-header-warning">
-            <h4 class="card-title">Supply Chain Management - Sawtooth</h4>
-          </div>
-          <div class="card-body">
-            <div class="demo-single">
-              <h4>Sea food</h4>
-              <div class="icons">
-                <a target='_blank' href="https://drive.google.com/open?id=18ntoELE4NFdBqCDCI4yX2z6ZCrqmznYW">
-                  <fa-icon matTooltip="PPT" matTooltipClass="demo-tooltip" class="ppt" [icon]="faPpt"></fa-icon>
-                </a>
-                <a target='_blank' href="https://drive.google.com/file/d/1Yr8xaBkHH3zTp7lEasfkvB9pz6DTu7vp/view">
-                  <fa-icon matTooltip="White Paper" matTooltipClass="demo-tooltip" class="whitepaper" [icon]="faWord"></fa-icon>
-                </a>
-                <a target='_blank' href="http://52.172.13.43:8022/">
-                  <fa-icon matTooltip="Demo" matTooltipClass="demo-tooltip" [icon]="faDemo"></fa-icon>
-                </a>
-                <a target='_blank' (click)="openDialog('8nrVlICgiYM')">
-                  <fa-icon matTooltip="Video" class="video" matTooltipClass="demo-tooltip" [icon]="faVideo"></fa-icon>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </div>
 
 <div class="legends">
   <div class="single">
-      <span class="green"></span>
-      <p>Completed</p>
+    <span class="green"></span>
+    <p>Completed</p>
   </div>
   <div class="single">
-      <span class="yellow"></span>
-      <p>In Progress</p>
+    <span class="yellow"></span>
+    <p>In Progress</p>
   </div>
   <div class="single">
-      <span class="red"></span>
-      <p>Proposed</p>
+    <span class="red"></span>
+    <p>Proposed</p>
   </div>
 </div>
